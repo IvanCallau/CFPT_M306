@@ -1,0 +1,180 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 27602,
+	"name": "main_game",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [],
+	"uniqueId": "q6py7wvd0uc",
+	"objectTypes": {
+		"items": [],
+		"subfolders": []
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"Scène 1"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"Feuille d'Evènements 1"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [],
+			"subfolders": []
+		},
+		"music": {
+			"items": [],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "Icône-16.png",
+					"type": "image/png",
+					"sid": 127125150088527,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Icône-64.png",
+					"type": "image/png",
+					"sid": 851253754388139,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Icône-128.png",
+					"type": "image/png",
+					"sid": 202940306239172,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Icône-32.png",
+					"type": "image/png",
+					"sid": 662877476035705,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Icône-512.png",
+					"type": "image/png",
+					"sid": 659183739448824,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "logo-chargement.png",
+					"type": "image/png",
+					"sid": 907822185506056,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				},
+				{
+					"name": "Icône-256.png",
+					"type": "image/png",
+					"sid": 957846169235579,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Timeline 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": false,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"webgpu": "auto",
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https"
+	},
+	"viewportWidth": 854,
+	"viewportHeight": 480,
+	"firstLayout": null
+}
