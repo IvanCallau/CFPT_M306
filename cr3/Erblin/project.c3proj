@@ -5,10 +5,30 @@
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
-	"usedAddons": [],
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Arrière-plan Répété",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		}
+	],
 	"uniqueId": "q6py7wvd0uc",
 	"objectTypes": {
-		"items": [],
+		"items": [
+			"Sprite",
+			"ArrièreplanRépété"
+		],
 		"subfolders": []
 	},
 	"autosaveData": null,
