@@ -1,0 +1,182 @@
+{
+	"name": "Feuille d'Evènements 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Clavier",
+					"sid": 333889312672610,
+					"parameters": {
+						"key": 32
+					}
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 536025718200742,
+					"parameters": {
+						"interval-seconds": "0.3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Hero",
+					"sid": 221429212208300,
+					"parameters": {
+						"object": "projectile",
+						"layer": "0",
+						"image-point": "Souris.MovementX",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 715582726527225
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-outside-layout",
+					"objectClass": "projectile",
+					"sid": 107527974141415
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "projectile",
+					"sid": 270457453215516
+				}
+			],
+			"sid": 250296355480349
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "has-los-to-object",
+					"objectClass": "enemy",
+					"sid": 695502071451543,
+					"behaviorType": "LigneDeMire",
+					"parameters": {
+						"object": "Hero",
+						"image-point": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-at-angle",
+					"objectClass": "enemy",
+					"sid": 265924117251141,
+					"parameters": {
+						"angle": "angle(enemy.X,enemy.Y,Hero.X,Hero.Y)",
+						"distance": "0.5"
+					}
+				}
+			],
+			"sid": 443728139201139
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "enemy",
+					"sid": 283816045259406,
+					"parameters": {
+						"object": "Hero"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Hero",
+					"sid": 819514584187765,
+					"parameters": {
+						"instance-variable": "health",
+						"value": "Hero.health - 20"
+					}
+				}
+			],
+			"sid": 297347276117249
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Hero",
+					"sid": 554210378320478,
+					"parameters": {
+						"instance-variable": "health",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Hero",
+					"sid": 438416649830170
+				}
+			],
+			"sid": 849658849606491
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "enemy",
+					"sid": 718220492131422,
+					"parameters": {
+						"object": "projectile"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "enemy",
+					"sid": 593640930636051,
+					"parameters": {
+						"instance-variable": "health",
+						"value": "enemy.health - 20"
+					}
+				}
+			],
+			"sid": 415945339188270
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "enemy",
+					"sid": 405616203735642,
+					"parameters": {
+						"instance-variable": "health",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "enemy",
+					"sid": 206007097920160
+				}
+			],
+			"sid": 594229902051706
+		}
+	],
+	"sid": 650183992675763
+}
