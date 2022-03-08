@@ -66,10 +66,19 @@
 	"uniqueId": "q6py7wvd0uc",
 	"objectTypes": {
 		"items": [
-			"SP_player",
+			"player",
 			"Clavier",
 			"Souris",
+<<<<<<< Updated upstream
 			"SP_bullet"
+=======
+			"bullet",
+			"enemy",
+			"ArrièreplanRépété",
+			"Barre_Vie",
+			"Bar_Vie_Background",
+			"SP_Camera"
+>>>>>>> Stashed changes
 		],
 		"subfolders": []
 	},
