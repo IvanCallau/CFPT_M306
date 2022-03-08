@@ -1,0 +1,37 @@
+{
+	"name": "Haut_Centre",
+	"plugin-id": "Sprite",
+	"sid": 763801749593274,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 122,
+						"height": 122,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3588959,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 452023821829778,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

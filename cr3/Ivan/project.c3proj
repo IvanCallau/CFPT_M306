@@ -1,14 +1,96 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 27602,
-	"name": "M306_Ivan",
+	"savedWithRelease": 28500,
+	"name": "Nouveau projet",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
-	"usedAddons": [],
-	"uniqueId": "kv3jiuffbe6",
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Souris",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Arrière-plan Répété",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Directions",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Défiler vers",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "bound",
+			"name": "Limité à la scène",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Projectile",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "destroy",
+			"name": "Détruire hors de la scène",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		}
+	],
+	"uniqueId": "jhdnw7359pq",
 	"objectTypes": {
-		"items": [],
+		"items": [
+			"Joueur",
+			"Projectile",
+			"Souris",
+			"ArrièreplanRépété",
+			"Haut_Gauche",
+			"Haut_Centre",
+			"ArrièreplanRépété2",
+			"ArrièreplanRépété3",
+			"Haut_Droite",
+			"ArrièreplanRépété4",
+			"Bas_Droite",
+			"ArrièreplanRépété5",
+			"Bas_Gauche",
+			"ArrièreplanRépété6",
+			"Ennemi",
+			"ArrièreplanRépété7"
+		],
 		"subfolders": []
 	},
 	"autosaveData": null,
@@ -53,17 +135,9 @@
 		"icon": {
 			"items": [
 				{
-					"name": "Icône-16.png",
-					"type": "image/png",
-					"sid": 548518667995878,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
 					"name": "Icône-32.png",
 					"type": "image/png",
-					"sid": 790416719618102,
+					"sid": 231533757271344,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -71,7 +145,15 @@
 				{
 					"name": "Icône-64.png",
 					"type": "image/png",
-					"sid": 774980076305211,
+					"sid": 105113153666959,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Icône-16.png",
+					"type": "image/png",
+					"sid": 993786727419329,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -79,7 +161,7 @@
 				{
 					"name": "Icône-128.png",
 					"type": "image/png",
-					"sid": 278086950195086,
+					"sid": 423018273448183,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -87,7 +169,7 @@
 				{
 					"name": "Icône-512.png",
 					"type": "image/png",
-					"sid": 952558074001976,
+					"sid": 439348328278474,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -95,7 +177,7 @@
 				{
 					"name": "logo-chargement.png",
 					"type": "image/png",
-					"sid": 714498883986725,
+					"sid": 528708685298627,
 					"icon-info": {
 						"purpose": "loading-logo"
 					}
@@ -103,7 +185,7 @@
 				{
 					"name": "Icône-256.png",
 					"type": "image/png",
-					"sid": 307518106074585,
+					"sid": 841479884865578,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -135,6 +217,8 @@
 		"authorWebsite": "",
 		"appId": "",
 		"pixelRounding": false,
+		"zAxisScale": "normalized",
+		"fov": 0.7853981633974483,
 		"useLoaderLayout": false,
 		"fullscreenMode": "letterbox-scale",
 		"fullscreenQuality": "high",
