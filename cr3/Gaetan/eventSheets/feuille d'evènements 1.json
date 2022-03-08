@@ -83,27 +83,8 @@
 		},
 		{
 			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "enemy",
-					"sid": 283816045259406,
-					"parameters": {
-						"object": "Hero"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-instvar-value",
-					"objectClass": "Hero",
-					"sid": 819514584187765,
-					"parameters": {
-						"instance-variable": "health",
-						"value": "Hero.health - 20"
-					}
-				}
-			],
+			"conditions": [],
+			"actions": [],
 			"sid": 297347276117249
 		},
 		{
@@ -143,12 +124,12 @@
 			],
 			"actions": [
 				{
-					"id": "set-instvar-value",
+					"id": "subtract-from-instvar",
 					"objectClass": "enemy",
-					"sid": 593640930636051,
+					"sid": 390716481454663,
 					"parameters": {
 						"instance-variable": "health",
-						"value": "enemy.health - 20"
+						"value": "20"
 					}
 				}
 			],
@@ -173,9 +154,78 @@
 					"id": "destroy",
 					"objectClass": "enemy",
 					"sid": 206007097920160
+				},
+				{
+					"id": "add-to-instvar",
+					"objectClass": "ScoreText",
+					"sid": 283501404650877,
+					"parameters": {
+						"instance-variable": "score",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "ScoreText",
+					"sid": 699591364533110,
+					"parameters": {
+						"text": "\"Score : \" & ScoreText.score"
+					}
 				}
 			],
 			"sid": 594229902051706
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "enemy",
+					"sid": 328327734335870,
+					"parameters": {
+						"object": "Hero"
+					}
+				},
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 201828105621554,
+					"parameters": {
+						"interval-seconds": "0.5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Hero",
+					"sid": 488069395251697,
+					"parameters": {
+						"instance-variable": "health",
+						"value": "20"
+					}
+				}
+			],
+			"sid": 248825233547488
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 124999569988745
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "Hero",
+					"sid": 695081397640445,
+					"behaviorType": "8Directions"
+				}
+			],
+			"actions": [],
+			"sid": 355898184579647
 		}
 	],
 	"sid": 650183992675763

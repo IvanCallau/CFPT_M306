@@ -13,7 +13,7 @@
 			"actions": [
 				{
 					"id": "set-angle-toward-position",
-					"objectClass": "SP_player",
+					"objectClass": "player",
 					"sid": 473980780812008,
 					"parameters": {
 						"x": "Souris.X",
@@ -46,11 +46,19 @@
 			"actions": [
 				{
 					"id": "spawn-another-object",
+<<<<<<< Updated upstream
 					"objectClass": "SP_player",
 					"sid": 129488473577452,
 					"parameters": {
 						"object": "SP_bullet",
 						"layer": "0",
+=======
+					"objectClass": "player",
+					"sid": 225626669397641,
+					"parameters": {
+						"object": "bullet",
+						"layer": "1",
+>>>>>>> Stashed changes
 						"image-point": "1",
 						"create-hierarchy": false
 					}
@@ -72,15 +80,236 @@
 			],
 			"actions": [
 				{
+<<<<<<< Updated upstream
 					"id": "set-y",
 					"objectClass": "SP_player",
 					"sid": 898714902604056,
+=======
+					"id": "simulate-control",
+					"objectClass": "player",
+					"sid": 224661028312503,
+					"behaviorType": "8Directions",
+>>>>>>> Stashed changes
 					"parameters": {
 						"y": "10"
 					}
 				}
 			],
 			"sid": 328704975337154
+<<<<<<< Updated upstream
+=======
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Clavier",
+					"sid": 799757826011054,
+					"parameters": {
+						"key": 68
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "player",
+					"sid": 736297398037135,
+					"behaviorType": "8Directions",
+					"parameters": {
+						"control": "right"
+					}
+				}
+			],
+			"sid": 165740767915202
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Clavier",
+					"sid": 468075707030342,
+					"parameters": {
+						"key": 65
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "player",
+					"sid": 791650989036088,
+					"behaviorType": "8Directions",
+					"parameters": {
+						"control": "left"
+					}
+				}
+			],
+			"sid": 559073899754399
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Clavier",
+					"sid": 481267021468279,
+					"parameters": {
+						"key": 83
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "player",
+					"sid": 198191803040083,
+					"behaviorType": "8Directions",
+					"parameters": {
+						"control": "down"
+					}
+				}
+			],
+			"sid": 989539710823744
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "player",
+					"sid": 564772597800795,
+					"parameters": {
+						"object": "enemy"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 656204890014873,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 195748287378037,
+							"parameters": {
+								"interval-seconds": "0.5"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 575253961525759,
+							"parameters": {
+								"variable": "Vie",
+								"value": "10"
+							}
+						}
+					],
+					"sid": 369297633675159
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 456835128636365
+				}
+			],
+			"actions": [
+				{
+					"id": "set-width",
+					"objectClass": "Barre_Vie",
+					"sid": 376911936411264,
+					"parameters": {
+						"width": "Vie"
+					}
+				}
+			],
+			"sid": 394445568275934
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 178620293667098,
+					"parameters": {
+						"variable": "Vie",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 871524049348205,
+					"parameters": {
+						"variable": "Vie",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-width",
+					"objectClass": "Barre_Vie",
+					"sid": 644002049660820,
+					"parameters": {
+						"width": "0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "player",
+					"sid": 672535823451709,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-width",
+					"objectClass": "Bar_Vie_Background",
+					"sid": 293317440387038,
+					"parameters": {
+						"width": "0"
+					}
+				}
+			],
+			"sid": 233137363318808
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 338568634345784
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "SP_Camera",
+					"sid": 457441455833534,
+					"parameters": {
+						"x": "lerp(SP_Camera.X,player.X, 0.05)",
+						"y": "lerp(SP_Camera.Y,player.y, 0.05)"
+					}
+				}
+			],
+			"sid": 461009131242492
+>>>>>>> Stashed changes
 		}
 	],
 	"sid": 946262180801935

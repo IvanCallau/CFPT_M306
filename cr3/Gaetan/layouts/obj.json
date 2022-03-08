@@ -17,7 +17,8 @@
 					},
 					"uid": 3,
 					"instanceVariables": {
-						"health": 100
+						"health": 100,
+						"score": 0
 					},
 					"behaviors": {
 						"8Directions": {
@@ -30,15 +31,20 @@
 								"default-controls": true,
 								"enabled": true
 							}
+						},
+						"DéfilerVers": {
+							"properties": {
+								"enabled": true
+							}
 						}
 					},
 					"world": {
 						"x": 152,
 						"y": 168,
-						"width": 26,
-						"height": 26,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 261,
+						"height": 155,
+						"originX": 0.42361516981622177,
+						"originY": 0.432258064516129,
 						"color": [
 							1,
 							1,
