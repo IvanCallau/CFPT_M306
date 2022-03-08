@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 28500,
+	"savedWithRelease": 28503,
 	"name": "Gaetan",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r285",
+			"version": "r285.3",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "Keyboard",
 			"name": "Clavier",
 			"author": "Scirra",
-			"version": "r285",
+			"version": "r285.3",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,15 @@
 			"id": "Mouse",
 			"name": "Souris",
 			"author": "Scirra",
-			"version": "r285",
+			"version": "r285.3",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Texte",
+			"author": "Scirra",
+			"version": "r285.3",
 			"bundled": false
 		},
 		{
@@ -35,7 +43,15 @@
 			"id": "EightDir",
 			"name": "8 Directions",
 			"author": "Scirra",
-			"version": "r285",
+			"version": "r285.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Défiler vers",
+			"author": "Scirra",
+			"version": "r285.3",
 			"bundled": false
 		},
 		{
@@ -43,7 +59,7 @@
 			"id": "Bullet",
 			"name": "Projectile",
 			"author": "Scirra",
-			"version": "r285",
+			"version": "r285.3",
 			"bundled": false
 		},
 		{
@@ -51,7 +67,15 @@
 			"id": "LOS",
 			"name": "Ligne de mire",
 			"author": "Scirra",
-			"version": "r285",
+			"version": "r285.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Anchor",
+			"name": "Ancre",
+			"author": "Scirra",
+			"version": "r285.3",
 			"bundled": false
 		}
 	],
@@ -62,7 +86,8 @@
 			"projectile",
 			"Clavier",
 			"enemy",
-			"Souris"
+			"Souris",
+			"ScoreText"
 		],
 		"subfolders": []
 	},
