@@ -1,0 +1,49 @@
+{
+	"name": "Bar_Vie_Background",
+	"plugin-id": "Sprite",
+	"sid": 536039275658208,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 100,
+						"height": 16,
+						"originX": 0,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4394702,
+						"collisionPoly": {
+							"points": [
+								0.25999999999999995,
+								0,
+								0.74,
+								0,
+								0.74,
+								1,
+								0.25999999999999995,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 616091521493107,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

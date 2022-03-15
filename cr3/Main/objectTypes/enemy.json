@@ -1,0 +1,64 @@
+{
+	"name": "enemy",
+	"plugin-id": "Sprite",
+	"sid": 748445227284312,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Vie",
+			"type": "number",
+			"desc": "",
+			"sid": 868743115256863
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 195,
+						"height": 174,
+						"originX": 0.38461538461538464,
+						"originY": 0.5172413793103449,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5313905,
+						"collisionPoly": {
+							"points": [
+								0.18974358974358974,
+								0.15517241379310345,
+								0.5256410256410257,
+								0.028735632183908046,
+								0.9179487179487179,
+								0.08620689655172414,
+								0.5948717948717949,
+								0.47701149425287354,
+								0.8923076923076924,
+								0.8333333333333334,
+								0.5256410256410257,
+								0.9597701149425287,
+								0.15384615384615385,
+								0.8333333333333334,
+								0.010256410256410256,
+								0.47701149425287354
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 231694859305132,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
