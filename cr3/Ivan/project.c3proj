@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 28500,
+	"savedWithRelease": 28503,
 	"name": "Nouveau projet",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r285",
+			"version": "r285.3",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "Mouse",
 			"name": "Souris",
 			"author": "Scirra",
-			"version": "r285",
+			"version": "r285.3",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,7 @@
 			"id": "TiledBg",
 			"name": "Arrière-plan Répété",
 			"author": "Scirra",
-			"version": "r285",
+			"version": "r285.3",
 			"bundled": false
 		},
 		{
@@ -35,7 +35,7 @@
 			"id": "EightDir",
 			"name": "8 Directions",
 			"author": "Scirra",
-			"version": "r285",
+			"version": "r285.3",
 			"bundled": false
 		},
 		{
@@ -43,7 +43,7 @@
 			"id": "scrollto",
 			"name": "Défiler vers",
 			"author": "Scirra",
-			"version": "r285",
+			"version": "r285.3",
 			"bundled": false
 		},
 		{
@@ -51,7 +51,7 @@
 			"id": "bound",
 			"name": "Limité à la scène",
 			"author": "Scirra",
-			"version": "r285",
+			"version": "r285.3",
 			"bundled": false
 		},
 		{
@@ -59,7 +59,7 @@
 			"id": "Bullet",
 			"name": "Projectile",
 			"author": "Scirra",
-			"version": "r285",
+			"version": "r285.3",
 			"bundled": false
 		},
 		{
@@ -67,29 +67,26 @@
 			"id": "destroy",
 			"name": "Détruire hors de la scène",
 			"author": "Scirra",
-			"version": "r285",
+			"version": "r285.3",
 			"bundled": false
 		}
 	],
 	"uniqueId": "jhdnw7359pq",
 	"objectTypes": {
 		"items": [
-			"Joueur",
-			"Projectile",
-			"Souris",
-			"ArrièreplanRépété",
-			"Haut_Gauche",
-			"Haut_Centre",
-			"ArrièreplanRépété2",
-			"ArrièreplanRépété3",
-			"Haut_Droite",
-			"ArrièreplanRépété4",
-			"Bas_Droite",
-			"ArrièreplanRépété5",
-			"Bas_Gauche",
-			"ArrièreplanRépété6",
-			"Ennemi",
-			"ArrièreplanRépété7"
+			"player",
+			"projectile",
+			"mouse",
+			"backGround",
+			"backGroundTopLeft",
+			"backGroundTop",
+			"backGroundTopRight",
+			"backGroundBottomRight",
+			"backGroundBottom",
+			"backGroundBottomLeft",
+			"backGroundLeft",
+			"ennemy",
+			"backGroundRight"
 		],
 		"subfolders": []
 	},

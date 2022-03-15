@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "ArrièreplanRépété",
+					"type": "backGround",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -40,7 +40,7 @@
 					}
 				},
 				{
-					"type": "Haut_Gauche",
+					"type": "backGroundTopLeft",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Default",
@@ -69,7 +69,7 @@
 					}
 				},
 				{
-					"type": "ArrièreplanRépété3",
+					"type": "backGroundTop",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -102,7 +102,7 @@
 					}
 				},
 				{
-					"type": "Haut_Droite",
+					"type": "backGroundTopRight",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Default",
@@ -131,7 +131,7 @@
 					}
 				},
 				{
-					"type": "Bas_Droite",
+					"type": "backGroundBottomRight",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Default",
@@ -160,7 +160,7 @@
 					}
 				},
 				{
-					"type": "ArrièreplanRépété5",
+					"type": "backGroundBottom",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -193,7 +193,7 @@
 					}
 				},
 				{
-					"type": "Bas_Gauche",
+					"type": "backGroundBottomLeft",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Default",
@@ -222,7 +222,7 @@
 					}
 				},
 				{
-					"type": "ArrièreplanRépété6",
+					"type": "backGroundLeft",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -255,7 +255,7 @@
 					}
 				},
 				{
-					"type": "Ennemi",
+					"type": "ennemy",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -284,7 +284,7 @@
 					}
 				},
 				{
-					"type": "ArrièreplanRépété7",
+					"type": "backGroundRight",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -317,7 +317,7 @@
 					}
 				},
 				{
-					"type": "Projectile",
+					"type": "projectile",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -361,7 +361,7 @@
 					}
 				},
 				{
-					"type": "Joueur",
+					"type": "player",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",

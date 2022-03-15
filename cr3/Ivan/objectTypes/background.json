@@ -1,7 +1,7 @@
 {
-	"name": "ArrièreplanRépété5",
+	"name": "backGround",
 	"plugin-id": "TiledBg",
-	"sid": 166337790264037,
+	"sid": 763591479155037,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -14,7 +14,7 @@
 		"originalSource": "",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 4490843,
+		"imageSpriteId": 8527340,
 		"useCollisionPoly": true
 	}
 }

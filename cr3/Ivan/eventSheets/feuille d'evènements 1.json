@@ -13,11 +13,11 @@
 			"actions": [
 				{
 					"id": "set-angle-toward-position",
-					"objectClass": "Joueur",
+					"objectClass": "player",
 					"sid": 419385045817867,
 					"parameters": {
-						"x": "Souris.X",
-						"y": "Souris.Y"
+						"x": "mouse.X",
+						"y": "mouse.Y"
 					}
 				}
 			],
@@ -28,7 +28,7 @@
 			"conditions": [
 				{
 					"id": "mouse-button-is-down",
-					"objectClass": "Souris",
+					"objectClass": "mouse",
 					"sid": 990184157897880,
 					"parameters": {
 						"mouse-button": "left"
@@ -38,10 +38,10 @@
 			"actions": [
 				{
 					"id": "spawn-another-object",
-					"objectClass": "Joueur",
+					"objectClass": "player",
 					"sid": 969052826677701,
 					"parameters": {
-						"object": "Projectile",
+						"object": "projectile",
 						"layer": "0",
 						"image-point": "1",
 						"create-hierarchy": false
@@ -55,7 +55,7 @@
 			"conditions": [
 				{
 					"id": "collisions-enabled",
-					"objectClass": "Ennemi",
+					"objectClass": "ennemy",
 					"sid": 302681412001454
 				}
 			],
@@ -67,10 +67,10 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "Ennemi",
+					"objectClass": "ennemy",
 					"sid": 415961900784033,
 					"parameters": {
-						"object": "Joueur"
+						"object": "player"
 					}
 				}
 			],
@@ -82,10 +82,10 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "Joueur",
+					"objectClass": "player",
 					"sid": 878135810905779,
 					"parameters": {
-						"object": "Ennemi"
+						"object": "ennemy"
 					}
 				}
 			],
@@ -97,10 +97,10 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "Ennemi",
+					"objectClass": "ennemy",
 					"sid": 278507464858616,
 					"parameters": {
-						"object": "Projectile"
+						"object": "projectile"
 					}
 				}
 			],
@@ -112,7 +112,7 @@
 			"conditions": [
 				{
 					"id": "on-created",
-					"objectClass": "Ennemi",
+					"objectClass": "ennemy",
 					"sid": 535874427128821
 				}
 			],
@@ -124,7 +124,7 @@
 			"conditions": [
 				{
 					"id": "collisions-enabled",
-					"objectClass": "Joueur",
+					"objectClass": "player",
 					"sid": 109613217197391
 				}
 			],

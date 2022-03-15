@@ -1,7 +1,7 @@
 {
-	"name": "Haut_Gauche",
+	"name": "backGroundTopRight",
 	"plugin-id": "Sprite",
-	"sid": 971851233570529,
+	"sid": 783388463572515,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,19 @@
 			{
 				"frames": [
 					{
-						"width": 121,
+						"width": 122,
 						"height": 122,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5062918,
+						"imageSpriteId": 3554289,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 677322503678728,
+				"sid": 864754267600498,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,
